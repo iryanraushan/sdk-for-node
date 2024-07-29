@@ -1,3 +1,4 @@
+```
 const sdk = require('node-appwrite');
 
 const client = new sdk.Client()
@@ -9,3 +10,4 @@ const account = new sdk.Account(client);
 const result = await account.createMfaChallenge(
     sdk.AuthenticationFactor.Email // factor
 );
+```

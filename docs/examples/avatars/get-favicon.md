@@ -1,3 +1,4 @@
+```
 const sdk = require('node-appwrite');
 
 const client = new sdk.Client()
@@ -10,3 +11,4 @@ const avatars = new sdk.Avatars(client);
 const result = await avatars.getFavicon(
     'https://example.com' // url
 );
+```

@@ -1,3 +1,4 @@
+```
 const sdk = require('node-appwrite');
 
 const client = new sdk.Client()
@@ -13,3 +14,4 @@ const result = await avatars.getInitials(
     0, // height (optional)
     '' // background (optional)
 );
+```

@@ -1,3 +1,4 @@
+```
 const sdk = require('node-appwrite');
 
 const client = new sdk.Client()
@@ -11,3 +12,4 @@ const result = await account.createRecovery(
     'email@example.com', // email
     'https://example.com' // url
 );
+```
